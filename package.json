@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer",
+  "version": "0.0.0",
+  "description": "Puppeteer throws error while launching browser process.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": {
+    "name": "Rumon",
+    "email": "contact@msrumon.com",
+    "url": "https://www.msrumon.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^14.1.0"
+  }
+}

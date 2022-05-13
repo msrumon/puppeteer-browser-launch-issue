@@ -1,0 +1,16 @@
+services:
+  app:
+    image: node:lts-alpine
+    working_dir: /app
+    volumes:
+      - .:/app:rw
+    entrypoint:
+      - node
+      - app.js
+  npm:
+    image: node:lts-alpine
+    working_dir: /app
+    volumes:
+      - .:/app:rw
+    entrypoint:
+      - npm
